@@ -142,7 +142,7 @@ const appData = {
       {
         "name": "關西機場 HARUKA 特快車票",
         "platform": "Klook",
-        "url": "https://www.klook.com/zh-TW/activity/1008-kansai-airport-express-haruka-ticket-japan/",
+        "url": "https://www.klook.com/zh-TW/activity/18400-jr-haruka-airport-express-train-tickets-osaka",
         "price": "單程 1,910日圓",
         "description": "關西機場直達京都站約75分鐘，最便捷的交通方式"
       },
@@ -155,8 +155,8 @@ const appData = {
       },
       {
         "name": "京都觀光一日券",
-        "platform": "KKday",
-        "url": "https://www.kkday.com/zh-tw/product/5228-keihan-kyoto-sightseeing-pass-japan",
+        "platform": "Klook",
+        "url": "https://www.klook.com/zh-TW/activity/9882-kyoto-osaka-sightseeing-pass-japan/",
         "price": "一日券 1,000日圓，24小時券 1,200日圓",
         "description": "京阪電車指定區間無限次搭乘，享有景點優惠"
       }
@@ -165,7 +165,7 @@ const appData = {
       {
         "name": "京都和服體驗",
         "platform": "Klook",
-        "url": "https://www.klook.com/zh-TW/activity/2962-kyoto-kimono-rental-japan/",
+        "url": "https://www.klook.com/zh-TW/activity/27810-kimono-yukata-rental-miyabi-kyoto/",
         "price": "約 2,500日圓起",
         "description": "清水寺周邊和服體驗，包含髮型設計和攝影服務"
       },
