@@ -187,9 +187,9 @@ const appData = {
     "dining": [
       {
         "name": "南禪寺順正傳統豆腐會席料理",
-        "platform": "KKday",
-        "url": "https://www.kkday.com/zh-tw/product/5235-nanzenji-junsei-tofu-kaiseki-japan",
-        "price": "約 4,500日圓起",
+        "platform": "Klook",
+        "url": "https://www.klook.com/zh-TW/activity/5198-nanzenji-junsei-restaurant-kyoto/",
+        "price": "約 5000日圓起",
         "description": "享用傳統京都豆腐料理，體驗正宗日式用餐文化"
       }
     ]
