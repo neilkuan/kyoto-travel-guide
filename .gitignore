@@ -8,7 +8,6 @@ yarn-error.log*
 
 # OS files
 .DS_Store
-Thumbs.db
 
 # Env files
 .env
