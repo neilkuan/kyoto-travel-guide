@@ -1,41 +1,41 @@
 :root {
-  /* Colors */
-  --color-background: #F7F7F7; /* 淺灰 */
-  --color-surface: #FFFFFF; /* 白 */
-  --color-text: #222222; /* 深灰 */
-  --color-text-secondary: #6B7A8F; /* 較淡灰藍 */
-  --color-primary: #27C2C1; /* Tiffany Blue */
-  --color-primary-hover: #159A9C; /* 深藍綠 */
-  --color-primary-active: #117A7A; /* 更深藍綠 */
-  --color-secondary: #E6F7F7; /* 淺藍綠 */
-  --color-secondary-hover: #C2EDED; /* 更深淺藍綠 */
-  --color-secondary-active: #B2DFDF; /* 更深 */
-  --color-accent: #FFD166; /* 亮黃 */
-  --color-accent-hover: #FFB300; /* 橙黃 */
-  --color-success: #6A8D73; /* 綠 */
-  --color-warning: #E1B03F; /* 黃 */
-  --color-info: #27C2C1; /* 主色 */
-  --color-border: #E0E0E0; /* 灰色邊框 */
-  --color-btn-primary-text: #FFFFFF;
-  --color-card-border: #E0E0E0;
-  --color-card-border-inner: #E0E0E0;
-  --color-error: #B85042;
-  --color-focus-ring: #27C2C133;
-  --color-select-caret: #159A9C;
+  /* 護眼色系 */
+  --color-background: #e7f6e7; /* 柔和淺綠 */
+  --color-surface: #f4fbf4; /* 更淺的綠 */
+  --color-text: #2e4632; /* 深墨綠 */
+  --color-text-secondary: #6b8f6b; /* 淡綠灰 */
+  --color-primary: #7bb77b; /* 柔和草綠 */
+  --color-primary-hover: #5e9c5e; /* 深一點的草綠 */
+  --color-primary-active: #497a49; /* 更深的草綠 */
+  --color-secondary: #d6ecd6; /* 淡綠 */
+  --color-secondary-hover: #c2e0c2; /* 深一點的淡綠 */
+  --color-secondary-active: #b2d6b2; /* 更深 */
+  --color-accent: #ffe066; /* 柔和黃 */
+  --color-accent-hover: #ffd23f; /* 深一點的黃 */
+  --color-success: #6a8d73; /* 綠 */
+  --color-warning: #e1b03f; /* 黃 */
+  --color-info: #7bb77b; /* 主色 */
+  --color-border: #b7d3b7; /* 淡綠邊框 */
+  --color-btn-primary-text: #f4fbf4;
+  --color-card-border: #b7d3b7;
+  --color-card-border-inner: #b7d3b7;
+  --color-error: #b85042;
+  --color-focus-ring: #7bb77b33;
+  --color-select-caret: #5e9c5e;
 
   /* Common style patterns */
   --focus-ring: 0 0 0 3px var(--color-focus-ring);
   --focus-outline: 2px solid var(--color-primary);
   --status-bg-opacity: 0.15;
   --status-border-opacity: 0.25;
-  --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-  --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%232e4632' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23e7f6e7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
   /* RGB versions for opacity control */
   --color-success-rgb: 33, 128, 141;
   --color-error-rgb: 192, 21, 47;
   --color-warning-rgb: 168, 75, 47;
-  --color-info-rgb: 98, 108, 113;
+  --color-info-rgb: 123, 183, 123;
 
   /* Typography */
   --font-family-base: 'Microsoft JhengHei', '微軟正黑體', 'Noto Sans TC', 'ZCOOL KuaiLe', 'Kosugi Maru', 'FKGroteskNeue', 'Geist', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -104,114 +104,113 @@
 /* Dark mode colors */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: rgba(31, 33, 33, 1);
-    --color-surface: rgba(38, 40, 40, 1);
-    --color-text: rgba(245, 245, 245, 1);
-    --color-text-secondary: rgba(167, 169, 169, 0.7);
-    --color-primary: rgba(50, 184, 198, 1);
-    --color-primary-hover: rgba(45, 166, 178, 1);
-    --color-primary-active: rgba(41, 150, 161, 1);
-    --color-secondary: rgba(119, 124, 124, 0.15);
-    --color-secondary-hover: rgba(119, 124, 124, 0.25);
-    --color-secondary-active: rgba(119, 124, 124, 0.3);
-    --color-border: rgba(119, 124, 124, 0.3);
-    --color-error: rgba(255, 84, 89, 1);
-    --color-success: rgba(50, 184, 198, 1);
-    --color-warning: rgba(230, 129, 97, 1);
-    --color-info: rgba(167, 169, 169, 1);
-    --color-focus-ring: rgba(50, 184, 198, 0.4);
-    --color-btn-primary-text: rgba(19, 52, 59, 1);
-    --color-card-border: rgba(119, 124, 124, 0.2);
-    --color-card-border-inner: rgba(119, 124, 124, 0.15);
-    --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1),
-      inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-    --button-border-secondary: rgba(119, 124, 124, 0.2);
-    --color-border-secondary: rgba(119, 124, 124, 0.2);
-    --color-select-caret: rgba(245, 245, 245, 0.8);
+    --color-background: #1a2b1a; /* 深墨綠 */
+    --color-surface: #223822; /* 更深的墨綠 */
+    --color-text: #e7f6e7; /* 護眼淺綠字 */
+    --color-text-secondary: #b7d3b7; /* 淡綠灰 */
+    --color-primary: #5e9c5e; /* 深草綠 */
+    --color-primary-hover: #497a49;
+    --color-primary-active: #355a35;
+    --color-secondary: #2e4632; /* 深綠 */
+    --color-secondary-hover: #355a35;
+    --color-secondary-active: #223822;
+    --color-border: #355a35;
+    --color-error: #ff5459;
+    --color-success: #7bb77b;
+    --color-warning: #e1b03f;
+    --color-info: #b7d3b7;
+    --color-focus-ring: #5e9c5e66;
+    --color-btn-primary-text: #e7f6e7;
+    --color-card-border: #355a35;
+    --color-card-border-inner: #223822;
+    --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+    --button-border-secondary: #355a35;
+    --color-border-secondary: #355a35;
+    --color-select-caret: #b7d3b7;
 
     /* Common style patterns - updated for dark mode */
     --focus-ring: 0 0 0 3px var(--color-focus-ring);
     --focus-outline: 2px solid var(--color-primary);
     --status-bg-opacity: 0.15;
     --status-border-opacity: 0.25;
-    --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-    --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%232e4632' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23e7f6e7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
     /* RGB versions for dark mode */
-    --color-success-rgb: 50, 184, 198;
+    --color-success-rgb: 123, 183, 123;
     --color-error-rgb: 255, 84, 89;
     --color-warning-rgb: 230, 129, 97;
-    --color-info-rgb: 167, 169, 169;
+    --color-info-rgb: 183, 211, 183;
   }
 }
 
-/* Data attribute for manual theme switching */
 [data-color-scheme="dark"] {
-  --color-background: rgba(31, 33, 33, 1);
-  --color-surface: rgba(38, 40, 40, 1);
-  --color-text: rgba(245, 245, 245, 1);
-  --color-text-secondary: rgba(167, 169, 169, 0.7);
-  --color-primary: rgba(50, 184, 198, 1);
-  --color-primary-hover: rgba(45, 166, 178, 1);
-  --color-primary-active: rgba(41, 150, 161, 1);
-  --color-secondary: rgba(119, 124, 124, 0.15);
-  --color-secondary-hover: rgba(119, 124, 124, 0.25);
-  --color-secondary-active: rgba(119, 124, 124, 0.3);
-  --color-border: rgba(119, 124, 124, 0.3);
-  --color-error: rgba(255, 84, 89, 1);
-  --color-success: rgba(50, 184, 198, 1);
-  --color-warning: rgba(230, 129, 97, 1);
-  --color-info: rgba(167, 169, 169, 1);
-  --color-focus-ring: rgba(50, 184, 198, 0.4);
-  --color-btn-primary-text: rgba(19, 52, 59, 1);
-  --color-card-border: rgba(119, 124, 124, 0.15);
-  --color-card-border-inner: rgba(119, 124, 124, 0.15);
-  --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  --color-border-secondary: rgba(119, 124, 124, 0.2);
-  --color-select-caret: rgba(245, 245, 245, 0.8);
+  --color-background: #1a2b1a;
+  --color-surface: #223822;
+  --color-text: #e7f6e7;
+  --color-text-secondary: #b7d3b7;
+  --color-primary: #5e9c5e;
+  --color-primary-hover: #497a49;
+  --color-primary-active: #355a35;
+  --color-secondary: #2e4632;
+  --color-secondary-hover: #355a35;
+  --color-secondary-active: #223822;
+  --color-border: #355a35;
+  --color-error: #ff5459;
+  --color-success: #7bb77b;
+  --color-warning: #e1b03f;
+  --color-info: #b7d3b7;
+  --color-focus-ring: #5e9c5e66;
+  --color-btn-primary-text: #e7f6e7;
+  --color-card-border: #355a35;
+  --color-card-border-inner: #223822;
+  --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+  --color-border-secondary: #355a35;
+  --color-select-caret: #b7d3b7;
 
   /* Common style patterns - updated for dark mode */
   --focus-ring: 0 0 0 3px var(--color-focus-ring);
   --focus-outline: 2px solid var(--color-primary);
   --status-bg-opacity: 0.15;
   --status-border-opacity: 0.25;
-  --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-  --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%232e4632' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23e7f6e7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
   /* RGB versions for dark mode */
-  --color-success-rgb: 50, 184, 198;
+  --color-success-rgb: 123, 183, 123;
   --color-error-rgb: 255, 84, 89;
   --color-warning-rgb: 230, 129, 97;
-  --color-info-rgb: 167, 169, 169;
+  --color-info-rgb: 183, 211, 183;
 }
 
 [data-color-scheme="light"] {
-  --color-background: rgba(252, 252, 249, 1);
-  --color-surface: rgba(255, 255, 253, 1);
-  --color-text: rgba(19, 52, 59, 1);
-  --color-text-secondary: rgba(98, 108, 113, 1);
-  --color-primary: rgba(33, 128, 141, 1);
-  --color-primary-hover: rgba(29, 116, 128, 1);
-  --color-primary-active: rgba(26, 104, 115, 1);
-  --color-secondary: rgba(94, 82, 64, 0.12);
-  --color-secondary-hover: rgba(94, 82, 64, 0.2);
-  --color-secondary-active: rgba(94, 82, 64, 0.25);
-  --color-border: rgba(94, 82, 64, 0.2);
-  --color-btn-primary-text: rgba(252, 252, 249, 1);
-  --color-card-border: rgba(94, 82, 64, 0.12);
-  --color-card-border-inner: rgba(94, 82, 64, 0.12);
-  --color-error: rgba(192, 21, 47, 1);
-  --color-success: rgba(33, 128, 141, 1);
-  --color-warning: rgba(168, 75, 47, 1);
-  --color-info: rgba(98, 108, 113, 1);
-  --color-focus-ring: rgba(33, 128, 141, 0.4);
+  --color-background: #e7f6e7;
+  --color-surface: #f4fbf4;
+  --color-text: #2e4632;
+  --color-text-secondary: #6b8f6b;
+  --color-primary: #7bb77b;
+  --color-primary-hover: #5e9c5e;
+  --color-primary-active: #497a49;
+  --color-secondary: #d6ecd6;
+  --color-secondary-hover: #c2e0c2;
+  --color-secondary-active: #b2d6b2;
+  --color-border: #b7d3b7;
+  --color-btn-primary-text: #f4fbf4;
+  --color-card-border: #b7d3b7;
+  --color-card-border-inner: #b7d3b7;
+  --color-error: #b85042;
+  --color-success: #6a8d73;
+  --color-warning: #e1b03f;
+  --color-info: #7bb77b;
+  --color-focus-ring: #7bb77b33;
 
   /* RGB versions for light mode */
-  --color-success-rgb: 33, 128, 141;
+  --color-success-rgb: 123, 183, 123;
   --color-error-rgb: 192, 21, 47;
   --color-warning-rgb: 168, 75, 47;
-  --color-info-rgb: 98, 108, 113;
+  --color-info-rgb: 123, 183, 123;
 }
 
 /* Base styles */
