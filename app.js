@@ -172,15 +172,15 @@ const appData = {
       {
         "name": "嵐山嵯峨野小火車",
         "platform": "KKday",
-        "url": "https://www.kkday.com/zh-tw/product/5230-sagano-romantic-train-japan",
+        "url": "https://www.kkday.com/zh-tw/product/131948-sagano-romantic-train-one-way-ticket-saga-kameoka",
         "price": "約 880日圓",
         "description": "穿越嵐山的觀光列車，春季賞櫻秋季賞楓絕佳"
       },
       {
         "name": "金閣寺+清水寺+伏見稻荷一日遊",
         "platform": "Klook",
-        "url": "https://www.klook.com/zh-TW/activity/9884-kyoto-golden-pavilion-kiyomizu-fushimi-inari-day-tour-japan/",
-        "price": "約 3,000日圓起",
+        "url": "hhttps://www.klook.com/zh-TW/activity/87775-kinkaku-ji-kiyomizu-dera-fushimi-inari-taisha-one-day-bus-tour-osaka/",
+        "price": "約 8,500日圓起",
         "description": "包含中文導遊和遊覽車接送，適合時間有限的旅客"
       }
     ],
