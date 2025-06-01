@@ -550,7 +550,7 @@ function renderBudgetItems() {
                     <div class="category-color" style="background-color: ${category.color}"></div>
                     <span>${category.name}</span>
                 </div>
-                <div class="budget-amount">¥${amount.toLocaleString()}</div>
+                <div class="budget-amount">NT$${amount.toLocaleString()}</div>
             </div>
         `;
     }).join('');
@@ -573,7 +573,7 @@ function updateDailyAmount() {
     const dailyAmount = Math.round(totalBudget / 5);
     
     const dailyAmountElement = document.getElementById('daily-amount');
-    dailyAmountElement.textContent = `¥${dailyAmount.toLocaleString()}`;
+    dailyAmountElement.textContent = `NT$${dailyAmount.toLocaleString()}`;
 }
 
 // 模態框功能
