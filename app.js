@@ -179,7 +179,7 @@ const appData = {
       {
         "name": "金閣寺+清水寺+伏見稻荷一日遊",
         "platform": "Klook",
-        "url": "hhttps://www.klook.com/zh-TW/activity/87775-kinkaku-ji-kiyomizu-dera-fushimi-inari-taisha-one-day-bus-tour-osaka/",
+        "url": "https://www.klook.com/zh-TW/activity/87775-kinkaku-ji-kiyomizu-dera-fushimi-inari-taisha-one-day-bus-tour-osaka/",
         "price": "約 8,500日圓起",
         "description": "包含中文導遊和遊覽車接送，適合時間有限的旅客"
       }
